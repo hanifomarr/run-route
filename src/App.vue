@@ -1,3 +1,9 @@
+<script setup>
+import { RouterView } from "vue-router";
+import Navbar from "@/modules/navbar/Navbar.vue";
+</script>
+
 <template>
-  <h1>Run Route</h1>
+  <Navbar />
+  <RouterView />
 </template>
