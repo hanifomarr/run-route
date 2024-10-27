@@ -4,7 +4,7 @@ import { RouterLink, useRoute } from "vue-router";
 const navItems = [
   { name: "home", link: "/", Label: "Home" },
   { name: "routes", link: "/routes", Label: "Running Routes" },
-  { name: "add", link: "/addRoute", Label: "Add Route" },
+  { name: "add", link: "/routes/add", Label: "Add Route" },
 ];
 
 const isActive = (routePath) => {
