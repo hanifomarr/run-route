@@ -28,7 +28,7 @@ defineProps({
           <i class="fa-solid fa-location-dot text-lg"></i>
           {{ route.difficulty }}
         </div>
-        <RouterLink to="`/routes`">
+        <RouterLink :to="`/routes/${route.id}`">
           <Button
             variant="primary"
             size="medium"
